@@ -1,26 +1,16 @@
 footer {
-  grid-area: footer;
+  grid-area: ft;
 }
 
-.social-media-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.socials {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  list-style-type: none;
+  column-gap: 30px;
 }
 
-.social-media-list li {
-  padding: 10px 20px;
-}
-
-.social img {
-  height: 50px;
-  width: 50px;
-}
-
-.social img:hover {
-  opacity: 0.6;
+.socials i {
+  font-size: 42px;
 }
