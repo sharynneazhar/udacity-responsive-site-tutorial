@@ -4,23 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Project</title>
-    <link rel="stylesheet" href="./css/main.css" />
+    <title>Practice Site</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d129f327a8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <main class="page-container">
-      <nav class="nav-container">
-        <ul class="nav-list">
-          <li><a href="#">Home</a></li>
-          <li><a href="./pages/about.html">About</a></li>
-          <li><a href="./pages/blog.html">Blog</a></li>
-          <li><a href="./pages/contact.html">Contact</a></li>
+    <div class="layout">
+      <div class="sidebar">
+        <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
-      </nav>
-      <div class="landing-container">
-        <div class="avatar">
-          <img src="./images/avatar.png" alt="profile" />
-        </div>
+      </div>
+      <main>
+        <img
+          class="profile-img"
+          src="https://ionicframework.com/docs/img/demos/avatar.svg"
+          alt="profile"
+        />
         <div class="bio">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -30,31 +36,41 @@
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </div>
-      </div>
+        <!-- <div class="featured">
+          <div class="card">Card</div>
+          <div class="card">Card</div>
+          <div class="card">Card</div>
+          <div class="card">Card</div>
+          <div class="card">Card</div>
+          <div class="card">Card</div>
+          <div class="card">Card</div>
+          <div class="card">Card</div>
+        </div> -->
+      </main>
       <footer>
-        <ul class="social-media-list">
-          <li class="social">
-            <a href="https://www.google.com">
-              <img src="./images/linkedin.png" alt="linked social" />
+        <ul class="socials">
+          <li>
+            <a href="https://linkedin.com/in/sharynneazhar" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
-          <li class="social">
-            <a href="https://www.google.com">
-              <img src="./images/github.png" alt="github social" />
+          <li>
+            <a href="https://github.com/sharynneazhar">
+              <i class="fa-brands fa-github"></i>
             </a>
           </li>
-          <li class="social">
-            <a href="https://www.google.com">
-              <img src="./images/instagram.png" alt="instagram social" />
+          <li>
+            <a href="">
+              <i class="fa-brands fa-square-instagram"></i>
             </a>
           </li>
-          <li class="social">
-            <a href="https://www.google.com">
-              <img src="./images/facebook.png" alt="facebook social" />
+          <li>
+            <a href="">
+              <i class="fa-brands fa-square-facebook"></i>
             </a>
           </li>
         </ul>
       </footer>
-    </main>
+    </div>
   </body>
 </html>
