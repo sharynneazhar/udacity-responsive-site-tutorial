@@ -1,0 +1,33 @@
+.nav-container {
+  grid-area: side;
+  background-color: bisque;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.nav-list li {
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 24px;
+}
+
+.nav-list li:hover {
+  background-color: rgb(247, 195, 131);
+}
+
+@media screen and (max-width: 425px) {
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

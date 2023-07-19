@@ -1,0 +1,25 @@
+.landing-container {
+  grid-area: landing;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  height: 200px;
+  width: 200px;
+}
+
+.bio {
+  max-width: 768px;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .landing-container {
+    padding-right: 20px;
+  }
+}

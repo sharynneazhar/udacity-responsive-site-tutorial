@@ -1,0 +1,47 @@
+@import url('./nav.css');
+@import url('./landing.css');
+@import url('./footer.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.page-container {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    'side landing'
+    'side footer';
+  grid-template-columns: 250px auto;
+  grid-template-rows: auto 100px;
+  column-gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .page-container {
+    grid-template-columns: 150px auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page-container {
+    grid-template-areas:
+      'side'
+      'landing'
+      'footer';
+    grid-template-columns: auto;
+    grid-template-rows: 90px auto 100px;
+  }
+}

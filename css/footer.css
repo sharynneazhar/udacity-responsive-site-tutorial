@@ -1,0 +1,21 @@
+footer {
+  grid-area: footer;
+}
+
+.social-media-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.social {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.social a img {
+  height: 50px;
+  width: 50px;
+}
